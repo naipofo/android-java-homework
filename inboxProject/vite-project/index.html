@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/tray.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INBOX</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Righteous&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div id="app"></div>
+    <img id="photo" alt="" class="camera-controll" />
+    <video
+      id="video"
+      autoplay
+      playsinline
+      width="640"
+      height="480"
+      class="camera-controll"
+    ></video>
+    <canvas id="canvas" class="d-none camera-controll"></canvas>
+    <audio
+      id="snapSound"
+      src=""
+      preload="auto"
+      class="camera-controll"
+    ></audio>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
